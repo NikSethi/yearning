@@ -50,3 +50,12 @@ pre {
    overflow-x: auto;
    white-space: ;
 }
+
+@media (max-width: 660px) {
+   body {
+      font-size:12pt;
+      overflow-x: scroll;
+   }
+
+   
+}
