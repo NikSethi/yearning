@@ -1,0 +1,48 @@
+
+
+.header h2 {
+   margin: 0px 0 10px 0;
+}
+
+strong {
+   font-weight: medium;
+}
+
+.header {
+   padding-top: 15px;
+   padding-left: 15px;
+   padding-right:15px;
+   padding-bottom: 20px;
+}
+
+.header p {
+   font-size: 12pt;
+}
+
+
+body {
+   margin: 0;
+   padding: 0;
+   background-color: #FFF6DB;
+   color: #755A00;
+   font-family: monospace;
+   word-wrap: break-word;
+   font-size:16pt;
+}
+
+a {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: wavy underline;
+}
+
+img {
+   width: 100%;
+}
+
+pre {
+   overflow-x: auto;
+   white-space: ;
+}
