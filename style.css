@@ -30,6 +30,10 @@ body {
    font-size:16pt;
 }
 
+li {
+   font-size:12pt;
+}
+
 a {
    text-decoration: none;
 }
