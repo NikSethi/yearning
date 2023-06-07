@@ -93,6 +93,7 @@ pre {
    body {
       font-size:12pt;
       overflow-x: scroll;
+      max-width:98%;
    }
 
    
