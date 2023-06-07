@@ -1,3 +1,17 @@
+@font-face {
+    font-family: OTAbalos;
+    font-weight: 500;
+    src: url("fonts/OTAbalos-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: OTAbalos;
+    font-weight: bold;
+    src: url("fonts/OTAbalos-Extrabold.otf") format("opentype");
+}
+
+
+
 .hidden {
    opacity: 0; /* Initially hide the div */
    height: 0%;
@@ -20,31 +34,35 @@
    padding-left: 15px;
    padding-right:15px;
    padding-bottom: 20px;
-}
-
-.header p {
-   font-size: 12pt;
+   display: block;
 }
 
 
 body {
-   margin: 0;
-   padding: 0;
-   background-color: #fff;
-   color: #333;
+   font-family: OTAbalos;
+   font-weight: regular;
+   letter-spacing: 1.5px;
+   line-height: 1.6rem;
+   background-color: #005C46;
+   color: #fff;
    word-wrap: break-word;
    font-size:14pt;
+   max-width:50%;
+   margin:auto;
 }
 
-li {
-   font-size:12pt;
+ul {
+  list-style-type: none;
 }
 
 a {
    text-decoration: none;
+   color:#ddd;
+   font-weight: bold;
 }
 
 a:hover {
+   color:#ccc;
    text-decoration: wavy underline;
 }
 
@@ -52,13 +70,23 @@ img {
    width: 100%;
 }
 
+h3 {
+   font-weight: 500;
+}
+
 button {
    margin-bottom:20px;
+   font-family: OTAbalos;
+   font-size: 16pt;
+   background-color: #005C46;
+   color: #fff;
+   border-style: solid;
+   border-color: #fff;
 }
 
 pre {
    overflow-x: auto;
-   font-family: serif;
+   font-family: OTAbalos;
 }
 
 @media (max-width: 660px) {
