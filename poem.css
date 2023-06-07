@@ -1,22 +1,19 @@
 .hidden {
    opacity: 0; /* Initially hide the div */
-   padding: 10px;
-   margin-top: 10px;
+   height: 0%;
    transition: opacity 0.5s ease-in-out; /* Add transition effect */
  }
 
  /* CSS for the div when it's visible */
 .hidden.show {
    opacity: 1;
+   height:100%;
  }
 
 .header h2 {
    margin: 0px 0 10px 0;
 }
 
-strong {
-   font-weight: medium;
-}
 
 .header {
    padding-top: 15px;
@@ -33,11 +30,10 @@ strong {
 body {
    margin: 0;
    padding: 0;
-   background-color: #FFF6DB;
-   color: #755A00;
-   font-family: monospace;
+   background-color: #fff;
+   color: #333;
    word-wrap: break-word;
-   font-size:16pt;
+   font-size:14pt;
 }
 
 li {
@@ -56,9 +52,13 @@ img {
    width: 100%;
 }
 
+button {
+   margin-bottom:20px;
+}
+
 pre {
    overflow-x: auto;
-   white-space: ;
+   font-family: serif;
 }
 
 @media (max-width: 660px) {
