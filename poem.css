@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
     font-family: OTAbalos;
     font-weight: 500;
     src: url("fonts/OTAbalos-Regular.otf") format("opentype");
@@ -8,6 +8,27 @@
     font-family: OTAbalos;
     font-weight: bold;
     src: url("fonts/OTAbalos-Extrabold.otf") format("opentype");
+}
+*/
+
+@font-face {
+    font-family: Montreal;
+    font-weight: 500;
+    src: url("fonts/PPNeueMontreal-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Montreal;
+    font-style: italic;
+    src: url("fonts/PPNeueMontreal-Italic.otf") format("opentype");
+}
+
+
+
+@font-face {
+    font-family: OTAbalos;
+    font-weight: bold;
+    src: url("fonts/OTAbalos-Regular.otf") format("opentype");
 }
 
 
@@ -48,10 +69,10 @@
 
 
 body {
-   font-family: OTAbalos;
+   font-family: Montreal;
    font-weight: regular;
-   letter-spacing: 1.5px;
-   line-height: 1.6rem;
+   line-height: 1.4rem;
+   letter-spacing: .5px;
    background-color: #005C46;
    color: #fff;
    word-wrap: break-word;
@@ -79,8 +100,8 @@ img {
    width: 100%;
 }
 
-h3 {
-   font-weight: 500;
+h1,h2,h3,h4,h5 {
+   font-family: OTAbalos;
 }
 
 button {
@@ -96,13 +117,14 @@ button {
 
 pre {
    overflow-x: auto;
-   font-family: OTAbalos;
+   font-family: Montreal;
    height:100%;
+   line-height: 1.6rem;
 }
 
 @media (max-width: 660px) {
    body {
-      font-size:12pt;
+      font-size:14pt;
       overflow-x: scroll;
       max-width:98%;
    }
