@@ -4,7 +4,7 @@ html {
 
 body {
 	margin:0;
-	font-size: 24px;
+	font-size: 20px;
 	color:white;
 	background-color: black;
 }
@@ -28,11 +28,11 @@ body {
 .poem {
 	margin:0;
 	width:fit-content;
-	padding:5rem;
+	padding:3rem;
 	display:flex;
 	flex-direction: column;
-	gap:.5rem;
-	animation: fallApart 4s ease-in-out 45s 1 forwards;
+	gap:.25rem;
+	animation: fallApart 4s ease-in-out 42s 1 forwards;
 }
 
 .poem h4 {
@@ -162,6 +162,10 @@ p {
 @keyframes fallApart {
 	0% {
 		gap:1rem;
+		margin-top: 0px;
+	}
+
+	40% {
 		margin-top: 0px;
 	}
 	100% {
