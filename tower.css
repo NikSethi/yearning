@@ -32,7 +32,7 @@ body {
 	display:flex;
 	flex-direction: column;
 	gap:.25rem;
-	animation: fallApart 4s ease-in-out 42s 1 forwards;
+	animation: fallApart 4.5s ease-in-out 42s 1 forwards;
 }
 
 .poem h4 {
@@ -113,7 +113,7 @@ body {
 }
 #line15 {
 	animation: fadeIn 1s ease-in 16s 1;
-	animation: moveUp 1.5s ease-in-out 37s 1 forwards;
+	animation: moveUp 1.5s ease-in-out 36s 1 forwards;
 }
 
 
