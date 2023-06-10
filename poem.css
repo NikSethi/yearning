@@ -107,7 +107,7 @@ button {
 }
 
 pre {
-   overflow-x: auto;
+   overflow-x: scroll;
    font-family: Montreal;
    height:100%;
    line-height: 1.6rem;

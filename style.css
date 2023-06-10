@@ -57,8 +57,7 @@ img {
 }
 
 pre {
-   overflow-x: auto;
-   white-space: ;
+   overflow-x: scroll;
 }
 
 
