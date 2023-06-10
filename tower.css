@@ -1,0 +1,171 @@
+html { 
+	padding:0;
+}
+
+body {
+	margin:0;
+	font-size: 24px;
+	color:white;
+	background-color: black;
+}
+
+
+.bg {	
+	background-image: url("assets/tower.jpeg");
+	   width: 100vw;
+	   height: 100vh;
+	 
+	  y: -40;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:0;
+  margin:0;
+}
+
+
+.poem {
+	margin:0;
+	width:fit-content;
+	padding:5rem;
+	display:flex;
+	flex-direction: column;
+	gap:.5rem;
+	animation: fallApart 4s ease-in-out 45s 1 forwards;
+}
+
+.poem h4 {
+	opacity: 0%;
+	background-color: hsla(120, 0%, 100%, 0.9);
+	color:black;
+	width:fit-content;
+	padding: .5rem 1rem .5rem 1rem;
+	animation: fadeIn 1s ease-in 0s 1;
+	animation: moveUp 1.5s ease-in-out 0s 1 forwards;
+	border-radius: 4px;
+}
+
+.poem p {
+	background-color: hsla(120, 0%, 5%, 0.9);
+	width:fit-content;
+	padding: .5rem 1rem .5rem 1rem;
+	opacity: 0%;
+	border-radius: 4px;
+}
+
+#line1 {
+	animation: fadeIn 1s ease-in 2s 1;
+	animation: moveUp 1.5s ease-in-out 2s 1 forwards;
+}
+
+#line2 {
+	animation: fadeIn 1s ease-in 3s 1;
+	animation: moveUp 1.5s ease-in-out 5s 1 forwards;
+}
+#line3 {
+	animation: fadeIn 1s ease-in 4s 1;
+	animation: moveUp 1.5s ease-in-out 8s 1 forwards;
+}
+#line4 {
+	animation: fadeIn 1s ease-in 5s 1;
+	animation: moveUp 1.5s ease-in-out 11s 1 forwards;
+}
+#line5 {
+	animation: fadeIn 1s ease-in 6s 1;
+	animation: moveUp 1.5s ease-in-out 14s 1 forwards;
+}
+#line6 {
+	animation: fadeIn 1s ease-in 7s 1;
+	animation: moveUp 1.5s ease-in-out 17s 1 forwards;
+}
+#line7 {
+	animation: fadeIn 1s ease-in 8s 1;
+	animation: moveUp 1.5s ease-in-out 20s 1 forwards;
+}
+#line8 {
+	animation: fadeIn 1s ease-in 9s 1;
+	animation: moveUp 1.5s ease-in-out 23s 1 forwards;
+}
+#line9 {
+	animation: fadeIn 1s ease-in 10s 1;
+	animation: moveUp 1.5s ease-in-out 26.5s 1 forwards;
+}
+#line10 {
+	animation: fadeIn 1s ease-in 11s 1;
+	animation: moveUp 1.5s ease-in-out 28.5s 1 forwards;
+}
+#line11 {
+	animation: fadeIn 1s ease-in 12s 1;
+	animation: moveUp 1.5s ease-in-out 30s 1 forwards;
+}
+#line12 {
+	animation: fadeIn 1s ease-in 13s 1;
+	animation: moveUp 1.5s ease-in-out 31s 1 forwards;
+}
+#line13 {
+	animation: fadeIn 1s ease-in 14s 1;
+	animation: moveUp 1.5s ease-in-out 31.5s 1 forwards;
+}
+#line14 {
+	animation: fadeIn 1s ease-in 15s 1;
+	animation: moveUp 1.5s ease-in-out 34s 1 forwards;
+}
+#line15 {
+	animation: fadeIn 1s ease-in 16s 1;
+	animation: moveUp 1.5s ease-in-out 37s 1 forwards;
+}
+
+
+h4 {
+	margin:0;
+}
+
+p {
+	margin:0;
+}
+
+
+@media (max-width: 660px) {
+   body {
+      font-size:12pt;
+   }
+
+   .poem {
+   	padding: 1rem;
+   	width: 75vw;
+   }
+}
+
+/* animations */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes moveUp {
+  0% {
+  	opacity: 0%;
+  	transform: translateY(100px);
+  }
+  100% {
+  	opacity: 100%;
+  	transform: translateY(0px);
+  }
+}
+
+@keyframes fallApart {
+	0% {
+		gap:1rem;
+		margin-top: 0px;
+	}
+	100% {
+		gap:100rem;
+		margin-top:100rem;
+	}
+}
